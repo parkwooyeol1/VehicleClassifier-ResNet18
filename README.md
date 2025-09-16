@@ -2,7 +2,7 @@
 
 ## 1. 프로젝트 개요
 이 프로젝트는 **ResNet18 pretrained 모델**을 활용하여 다양한 교통수단 이미지를 분류하는 실험입니다.  
-목적은 실제 수사/교통 관련 데이터를 바탕으로 차량 종류를 자동으로 구분할 수 있는 모델을 구축하고 성능을 검증하는 것입니다.
+목적은 차량 종류를 자동으로 구분할 수 있는 모델을 구축하고 성능을 검증하는 것입니다.
 
 - 클래스: `bus`, `taxi`, `motorcycle`, `bicycle`, `truck`, `e_scooter`, `police_car`, `ambulance`, `van`, `construction_vehicle`  
 - 입력 이미지 크기: 128x128
