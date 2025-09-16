@@ -30,16 +30,7 @@
 
 ---
 
-## 3. 학습 환경
-
-- GPU: NVIDIA RTX 3080 Ti (CUDA 지원)
-- PyTorch: 2.x
-- Python: 3.10+
-- CPU, RAM: 환경에 따라 다름
-
----
-
-## 4. 모델 구조
+## 3. 모델 구조
 
 - Pretrained ResNet18 기반 fine-tuning
 - 마지막 fc layer만 클래스 수에 맞게 변경 (10 classes)
@@ -51,7 +42,7 @@
 
 ---
 
-## 5. 학습 결과
+## 4. 학습 결과
 
 - 에포크: 최대 100, Early stopping으로 Epoch 8에서 종료
 - Train/Validation Loss & Accuracy:
@@ -63,10 +54,9 @@
 
 ---
 
-## 6. 한계 및 개선점
+## 5. 한계 및 개선점
 
 - **한계**
-  - 클래스별 데이터 수가 동일하지 않아 일부 클래스에서 데이터 편향 가능
   - 다운받은 이미지 품질 및 환경 다양성 제한
   - 단일 ResNet18 사용, 더 깊거나 최신 모델 대비 성능 한계 존재
 
@@ -74,11 +64,10 @@
   - 더 많은 데이터 확보 및 다양한 촬영 환경 반영
   - EfficientNet, Swin Transformer 등 최신 모델 실험
   - 데이터 증강 기법 다양화 및 자동 하이퍼파라미터 튜닝
-  - 클래스 불균형 문제 해결을 위한 Weighted Loss 또는 Oversampling 적용
 
 ---
 
-## 7. 참고 사항
+## 6. 참고 사항
 
 - 학습 환경:
   - GPU: NVIDIA RTX 3080 Ti (CUDA 지원)
