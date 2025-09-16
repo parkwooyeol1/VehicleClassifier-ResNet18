@@ -72,8 +72,6 @@
 - 학습 환경:
   - GPU: NVIDIA RTX 3080 Ti (CUDA 지원)
   - PyTorch 버전: 2.x
-  - CPU, RAM: 학습 환경에 따라 달라질 수 있음
-- 모델:
   - Pretrained ResNet18 기반 fine-tuning
   - 입력 이미지 크기: 128x128
   - Early stopping 적용, best model 저장
