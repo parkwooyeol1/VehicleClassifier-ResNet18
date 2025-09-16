@@ -37,9 +37,6 @@
 - CrossEntropyLoss + Adam optimizer
 - ReduceLROnPlateau 스케줄러 사용
 
-- 학습 완료 후 모델 summary 이미지:
-  ![Model Summary](model_summary.png)
-
 ---
 
 ## 4. 학습 결과
